@@ -1,51 +1,32 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,100italic,300italic,700);
 
 body{
-	font-family: 'lato',sans-serif;
+	
 }
 
-h1,h2,h3,h4{
-	font-weight: 600;
+h1,h2,h3,h4,h5,h6{
+	font-family: 'lato', sans-serif;
 }
-#container{
+
+
+/*grid layout, sizing, and padding*/
+.container{
+	margin: 0 auto;
+	background: #aaa;
 	max-width: 600px;
-	margin: 60px auto;
 }
 
-.h1,.h2,.h3,.h4,.h5,.h6{
-	color:#333;
-	font-size: 30px;
-	margin: 5px;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	font-weight: 300;
+.padding-box{
+	background-color: red;
+	padding: 10px;
+	border:1px solid black;
 }
 
-.p2{
-	color:#333;
-	font-size: 14px;
-	margin: 5px;
-	letter-spacing: 1px;
-}
-
-p{
-	line-height: 25px;
-	margin-bottom: 20px !important;
+.margin-box{
+	margin-left: 10px;
+	outline:1px cyan solid;
 }
 
 
-.h5{
-	font-family: "coronette", sans-serif;
-	font-size: 24px;
-	font-weight: 400;
-	text-align: center;
-	margin-bottom: 20px;
-}
 
-
-.p2{
-	font-family: "ubuntu-mono", sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-}
 
